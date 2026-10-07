@@ -62,7 +62,7 @@ Full write-up: [`docs/Project_Writeup.docx`](Project_Writeup.docx).
 pip install -r requirements.txt
 python python/eda_and_model.py        # needs data/cc_data.csv
 ```
-SQL: open `fraud_analysis.sql` in MySQL Workbench after importing the CSVs into schema `finance`.
+SQL: open `sql/fraud_analysis.sql` in MySQL Workbench after importing the CSVs into schema `finance`.
 
 ## Future scope
 Supervised models (XGBoost / random forest with class balancing), per-customer behaviour features, real-time dashboards, external signals (device, IP).
