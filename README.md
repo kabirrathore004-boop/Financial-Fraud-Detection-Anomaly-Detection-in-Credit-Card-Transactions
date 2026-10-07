@@ -3,7 +3,7 @@
 End-to-end data analytics project on **389,197 credit-card transactions** using **Excel, MySQL, Python (EDA) and Tableau** to find where, when and how card fraud happens.
 
 ## Problem
-SecureGuard Financial Solutions needs data-driven insight to spot fraudulent card transactions: which states/cities, categories and hours are riskiest, and how fraud amounts differ from normal ones. Full brief: [`docs/Problem_Statement.pdf`](docs/Problem_Statement.pdf).
+SecureGuard Financial Solutions needs data-driven insight to spot fraudulent card transactions: which states/cities, categories and hours are riskiest, and how fraud amounts differ from normal ones. Full brief: [`docs/Problem_Statement.pdf`](Problem_Statement.pdf).
 
 ## Tech stack
 | Tool | Used for |
@@ -27,15 +27,15 @@ SecureGuard Financial Solutions needs data-driven insight to spot fraudulent car
 
 | Fraud by category | Fraud by hour |
 |---|---|
-| ![](images/sql/08_fraud_by_category.png) | ![](images/sql/10_fraud_by_hour.png) |
+| ![](08_fraud_by_category.png) | ![](10_fraud_by_hour.png) |
 
 ## Tableau dashboard
-![Dashboard](images/tableau/04_dashboard.png)
+![Dashboard](04_dashboard.png)
 
-More sheets: [fraud map](images/tableau/01_fraud_map.png), [monthly transactions](images/tableau/02_monthly_transactions.png), [weekly inflation-adjusted amounts](images/tableau/03_weekly_inflation_adjusted.png).
+More sheets: [fraud map](01_fraud_map.png), [monthly transactions](02_monthly_transactions.png), [weekly inflation-adjusted amounts](03_weekly_inflation_adjusted.png).
 
 ## EDA summary (Python)
-`amt` and `city_pop` are right-skewed; amt vs city_pop correlation is weak; the target is heavily imbalanced; fraud transactions have higher median and wider spread of amount; IQR outliers exist in both numeric columns; no major data-entry errors. Full report: [`docs/EDA_Report.docx`](docs/EDA_Report.docx).
+`amt` and `city_pop` are right-skewed; amt vs city_pop correlation is weak; the target is heavily imbalanced; fraud transactions have a higher median and wider spread of amount; IQR outliers exist in both numeric columns; no major data-entry errors. Full report: [`docs/EDA_Report.docx`](EDA_Report.docx).
 
 ## Business recommendations
 1. Extra monitoring in high-fraud-rate states and cities.
@@ -44,7 +44,7 @@ More sheets: [fraud map](images/tableau/01_fraud_map.png), [monthly transactions
 4. Combine geography, category, amount and time into a fraud risk score.
 5. Live fraud-KPI dashboard for the fraud team.
 
-Full write-up: [`docs/Project_Writeup.docx`](docs/Project_Writeup.docx).
+Full write-up: [`docs/Project_Writeup.docx`](Project_Writeup.docx).
 
 ## Repo structure
 ```
