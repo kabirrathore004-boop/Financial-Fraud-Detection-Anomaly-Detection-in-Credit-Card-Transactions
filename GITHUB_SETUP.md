@@ -1,4 +1,4 @@
-# GitHub setup (copy-paste)
+# GitHub setup
 
 **Repository name:** financial-fraud-detection
 
